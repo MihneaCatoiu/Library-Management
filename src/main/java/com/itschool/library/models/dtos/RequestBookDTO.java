@@ -5,12 +5,10 @@ import jakarta.persistence.Column;
 import lombok.Data;
 
 @Data
-public class BookDTO {
+public class RequestBookDTO {
 
-    private Long id;
     private String title;
     private String author;
     private String isbn;
     private String genre;
-    private int copiesAvailable;
 }
