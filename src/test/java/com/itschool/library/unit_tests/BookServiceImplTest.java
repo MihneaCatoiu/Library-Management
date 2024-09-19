@@ -1,4 +1,4 @@
-package com.itschool.library.init_tests;
+package com.itschool.library.unit_tests;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.itschool.library.models.dtos.RequestBookDTO;
@@ -6,7 +6,6 @@ import com.itschool.library.models.dtos.ResponseBookDTO;
 import com.itschool.library.models.entities.Book;
 import com.itschool.library.repositories.BookRepository;
 import com.itschool.library.services.BookServiceImpl;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

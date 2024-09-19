@@ -1,4 +1,4 @@
-package com.itschool.library.init_tests;
+package com.itschool.library.unit_tests;
 
 import com.itschool.library.utils.Calculator;
 import org.junit.jupiter.api.BeforeAll;

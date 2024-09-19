@@ -1,4 +1,4 @@
-package com.itschool.library.init_tests.test_mock_injection;
+package com.itschool.library.unit_tests.test_mock_injection;
 
 public class DependencyTwo {
 
