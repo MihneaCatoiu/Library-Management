@@ -4,6 +4,7 @@ package com.itschool.library.controllers;
 import com.itschool.library.models.dtos.CopiesAvailableDTO;
 import com.itschool.library.models.dtos.RequestBookDTO;
 import com.itschool.library.models.dtos.ResponseBookDTO;
+import com.itschool.library.models.entities.Book;
 import com.itschool.library.services.BookService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
