@@ -6,6 +6,7 @@ import com.itschool.library.models.dtos.ResponseBookDTO;
 import com.itschool.library.models.entities.Book;
 import com.itschool.library.repositories.BookRepository;
 import com.itschool.library.services.BookServiceImpl;
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -16,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
-public class BookServiceImplTest {
+class BookServiceImplTest {
 
     @Mock
     private ObjectMapper objectMapper;
@@ -26,6 +27,11 @@ public class BookServiceImplTest {
 
     @InjectMocks
     private BookServiceImpl bookService;
+
+    @AfterAll
+    public static void test() {
+        //code goes here
+    }
 
     @Test
     void testCreateBook() {
